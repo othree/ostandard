@@ -310,9 +310,9 @@ eslint-config-airbnb@^14.1.0:
   dependencies:
     eslint-config-airbnb-base "^11.1.0"
 
-eslint-config-ostandard@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-ostandard/-/eslint-config-ostandard-0.0.1.tgz#5b7758ffd1af16889cb17f21421a4d2e10431324"
+eslint-config-ostandard@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-ostandard/-/eslint-config-ostandard-0.0.2.tgz#fd479ed9ed1def06e14b18e042d096b790df5475"
   dependencies:
     eslint-config-airbnb "^14.1.0"
 

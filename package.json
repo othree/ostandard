@@ -1,7 +1,7 @@
 {
   "name": "ostandard",
   "description": "",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "email": "othree@gmail.com",
     "name": "othree",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "eslint": "~3.15.0",
-    "eslint-config-ostandard": "^0.0.1",
+    "eslint-config-ostandard": "^0.0.2",
     "eslint-plugin-promise": "~3.4.0",
     "eslint-plugin-react": "~6.9.0",
     "eslint-plugin-standard": "~2.0.1",
