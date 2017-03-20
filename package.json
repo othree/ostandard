@@ -1,14 +1,14 @@
 {
   "name": "ostandard",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "email": "othree@gmail.com",
     "name": "othree",
     "url": "https://twitter.com/othree"
   },
   "bin": {
-    "semistandard": "./bin/cmd.js"
+    "ostandard": "./bin/cmd.js"
   },
   "bugs": {
     "url": "https://github.com/othree/ostandard/issues"
