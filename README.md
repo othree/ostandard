@@ -1,14 +1,14 @@
 # JavaScript O-Standard Style
 
-Airbnb JavaScript coding style + react + `.tsx` support.
+Standard + react + `.tsx` support.
 
-Based on [Flet/semistandard](https://github.com/Flet/semistandard)
+Based on and inspired by [Flet/semistandard](https://github.com/Flet/semistandard)
 
 ## Usage
 
-The easiest way to use JavaScript Semi-Standard Style to check your code is to install it
+The easiest way to use JavaScript O-Standard Style to check your code is to install it
 globally as a Node command line program. To do so, simply run the following command in
-your terminal (flag `-g` installs `semistandard` globally on your system, omit it if you want
+your terminal (flag `-g` installs `standard` globally on your system, omit it if you want
 to install in the current working directory):
 
 ```bash
@@ -20,7 +20,7 @@ case would be checking the style of all JavaScript files in the current working 
 
 ```
 $ ostandard
-Error: Use JavaScript Semi-Standard Style
+Error: Use JavaScript Standard Style
   lib/torrent.js:950:11: Expected '===' and instead saw '=='.
 ```
 
@@ -42,7 +42,11 @@ Install **[Syntastic][vim-1]** and add these lines to `.vimrc`:
 
 ```vim
 let g:syntastic_javascript_checkers=['standard']
+let g:syntastic_javascript_standard_generic = 1
 let g:syntastic_javascript_standard_exec = 'ostandard'
+let g:syntastic_typescript_checkers=['standard']
+let g:syntastic_typescript_standard_generic = 1
+let g:syntastic_typescript_standard_exec = 'ostandard'
 ```
 
 For automatic formatting on save, add these two lines to `.vimrc`:
@@ -61,7 +65,7 @@ Just like in `standard`, The paths `node_modules/**`, `*.min.js`, `bundle.js`, `
 automatically excluded when looking for `.js` files to check.
 
 Sometimes you need to ignore additional folders or specific minfied files. To do that, add
-a `semistandard.ignore` property to `package.json`:
+a `ostandard.ignore` property to `package.json`:
 
 ```json
 "ostandard": {
@@ -75,7 +79,7 @@ a `semistandard.ignore` property to `package.json`:
 ```
 
 ### Make it look `snazzy`
-If you want prettier output, just install the [`snazzy`](https://github.com/feross/snazzy) package and pipe `semistandard` to it:
+If you want prettier output, just install the [`snazzy`](https://github.com/feross/snazzy) package and pipe `ostandard` to it:
 
 ```bash
 $ ostandard --verbose | snazzy
@@ -84,3 +88,7 @@ $ ostandard --verbose | snazzy
 See [airbnb/javascript] for more information.
 
 [airbnb/javascript]: https://github.com/airbnb/javascript
+
+### `O` stands for?
+
+**O** is first letter of my id. Also sound like 'all', means *JavaScript* and *TypeScript*.
