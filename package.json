@@ -1,7 +1,7 @@
 {
   "name": "ostandard",
   "description": "",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "author": {
     "email": "othree@gmail.com",
     "name": "othree",
@@ -14,16 +14,17 @@
     "url": "https://github.com/othree/ostandard/issues"
   },
   "dependencies": {
-    "eslint": "~3.16.1",
+    "eslint": "~3.18.0",
     "eslint-config-ostandard": "^0.0.6",
-    "eslint-config-standard": "^7.1.0",
+    "eslint-config-standard": "7.1.0",
+    "eslint-config-standard-jsx": "3.3.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-react": "^6.9.0",
-    "eslint-plugin-standard": "^2.1.1",
-    "minimist": "^1.2.0",
-    "standard-engine": "~6.0.0"
+    "eslint-plugin-promise": "~3.4.0",
+    "eslint-plugin-react": "~6.9.0",
+    "eslint-plugin-standard": "~2.0.1",
+    "standard-engine": "~5.4.0",
+    "minimist": "^1.2.0"
   },
   "devDependencies": {
     "merge": "^1.2.0",
